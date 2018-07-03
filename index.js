@@ -27,7 +27,9 @@ function currentLine(katzDeliLine) {
   var currentLine = [];
   var emptyLine = "The line is currently empty.";
   var lineNumber = []
-  
+  while(katzDeliLine.length > lineNumber.length) {
+    
+  }
   var theresALine = "The is currently:" + [katzDeliLine];
 
   while(lineLength===0) {
