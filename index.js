@@ -30,8 +30,6 @@ function currentLine(katzDeliLine) {
 
   while(lineLength===0) {
     return emptyLine;
-  }  
-
   }
 }
 // returns current line; 
