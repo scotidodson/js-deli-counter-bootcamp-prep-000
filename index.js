@@ -26,15 +26,14 @@ function currentLine(katzDeliLine) {
   var lineLength = katzDeliLine.length;
   var currentLine = [];
   var emptyLine = "The line is currently empty.";
-  
-  var lineNumber = [];
-  
-  for (i=1; i<lineLength; i++) {
-    lineNumber.push(i + katzDeliLine[`${i}`]);
-    
-  }
-  var theresALine = "The is currently:" + [katzDeliLine];
 
+  for (i=1; i<lineLength; i++) {
+    currentLine.push(i + katzDeliLine[`${i}`]);
+    return currentLine;
+  }
+  
+  var theresALine = "The is currently:" + [currentLine];
+  
   while(lineLength===0) {
     return emptyLine;
   }
