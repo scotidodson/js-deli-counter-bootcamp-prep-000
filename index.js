@@ -31,7 +31,7 @@ function currentLine(katzDeliLine) {
     currentLine.push(i + " " + katzDeliLine[`${i}`]);
   }
   
-  var theresALine = "The line is currently:" + [currentLine];
+  var theresALine = "The line is currently: " + [currentLine];
   while(lineLength>0) {
     return theresALine;
   }
