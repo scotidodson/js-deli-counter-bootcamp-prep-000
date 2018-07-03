@@ -33,6 +33,9 @@ function currentLine(katzDeliLine) {
   }
   
   var theresALine = "The is currently:" + [currentLine];
+  while(lineLength>0) {
+    return theresALine;
+  }
   
   while(lineLength===0) {
     return emptyLine;
