@@ -29,7 +29,7 @@ function currentLine(katzDeliLine) {
   var x = 1;
 
   for (let i=0; i<lineLength; i++) {
-    currentLine.push(`${x}` + ". " + katzDeliLine[`${i}`]);
+    currentLine.push(`${x}` + ". " + katzDeliLine[`${i}`] + " ");
     x++;
   }
   
