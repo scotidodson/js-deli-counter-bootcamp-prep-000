@@ -41,6 +41,3 @@ function currentLine(katzDeliLine) {
     return emptyLine;
   }
 }
-// returns current line; 
-// "The line is currently: 1. Name, 2. Grace"
-// "The line is currently empty."
