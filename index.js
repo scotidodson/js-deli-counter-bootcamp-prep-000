@@ -31,10 +31,7 @@ function currentLine(katzDeliLine) {
   while(lineLength===0) {
     return emptyLine;
   }  
-  
-  for (, i>0, i--) {
-    
-  }
+
   }
 }
 // returns current line; 
