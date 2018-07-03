@@ -28,10 +28,10 @@ function currentLine(katzDeliLine) {
   var emptyLine = "The line is currently empty.";
 
   for (let i=1; i<lineLength; i++) {
-    currentLine.push(i + katzDeliLine[`${i}`]);
+    currentLine.push(i + " " + katzDeliLine[`${i}`]);
   }
   
-  var theresALine = "The is currently:" + [currentLine];
+  var theresALine = "The line is currently:" + [currentLine];
   while(lineLength>0) {
     return theresALine;
   }
